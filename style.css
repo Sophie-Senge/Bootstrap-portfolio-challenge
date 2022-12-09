@@ -1,6 +1,8 @@
 body {
   margin: auto;
-  background-color: black;
+  background-image: url(./images/IMG_6282.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .avatar {
@@ -10,9 +12,21 @@ body {
   border-radius: 50%;
 }
 
+.jumbotron {
+background-color: transparent;
+}
+
 .cardContainer {
-  margin-top: 20px;
+  margin-top: 20px;  
 }
 .card {
   margin: 0 auto;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.about {
+  height: 300px;
+  background-color: transparent;
 }
