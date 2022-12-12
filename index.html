@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sophie Perks Portfolio</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/036f00d82e.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
   
 <body>
@@ -15,27 +15,26 @@
 <Header>
 
   <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="./images/IMG_7292.jpg" alt="Avatar" class="avatar">
+    </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <img src="./images/IMG_7292.jpg" alt="Avatar" class="avatar">
-    <a class="navbar-brand" href="#!">
-      <h2>SXS</h2>
-    </a>
   
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav ml-auto py-3">
         <li class="nav-item active">
-          <a class="nav-link" href="#!">About <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#!">Work <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#work">Work <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#!">Skills <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#skills">Skills <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#!">Contact <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#contact">Contact <span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
@@ -47,72 +46,56 @@
   <p>Junior Front-End Web Developer</p>
 </div>
 
-<!-- About me -->
-<div class="card text-white about">
-  <div class="card-img-overlay">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text">Last updated 3 mins ago</p>
+
+<!-- Work -->
+<div class="col-lg-6 mt-5">
+  <h2 class="text-light pt-4">Work</h2>
+  <div class="border-top border-light w-25 my-3"></div>
+</div>
+
+<div class="container">
+  <div class="ro my-5">
+    <div class="col-md-4 my-4">
+      <img src="./images/2CDA2BB7-B094-4680-BC15-831AF30A440F.jpg" alt="" class="w-100">
+    </div>
   </div>
 </div>
 
-<!-- Work -->
-<section class="row">
-  <div class="cardContainer col-lg-7 col-md-3 col-sm-6">
-    <div class="card">
-      <img src="./images/00D4E455-EAE3-4C60-B034-54E11712243B.JPG" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+
+<!-- About me -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4">
+      <img class="profile-pic"  src="./images/263324_10150322824224813_302428_n.jpg" style="height:300px;" alt="">
+    </div>
+
+    <div class="col-lg-8">
+      <div class="card">
+        <div class="card-body">
+          <h2>About Me</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id massa aliquam, lacinia est nec, suscipit ligula. Sed non neque et massa auctor ornare ut id nulla. Pellentesque et enim lobortis, pretium tellus sodales, consequat lectus. Vivamus dignissim congue mi non tempor. Maecenas ultrices velit vel odio fringilla, in sagittis diam iaculis. Morbi laoreet ante dolor, et accumsan nulla venenatis eu. Morbi porta lobortis lorem non aliquam. Nunc interdum ante vel lectus eleifend, nec lobortis nibh varius. Proin aliquam quis tellus sit amet gravida. Aliquam ut pulvinar neque.</p>
+        </div>
       </div>
     </div>
   </div>
+  
+</div>
 
-  <div class="cardContainer col-lg-5 col-md-3 col-sm-6">
-    <div class="card">
-      <img src="./images/2CDA2BB7-B094-4680-BC15-831AF30A440F.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="cardContainer col-lg-5 col-md-3 col-sm-6">
-    <div class="card">
-      <img src="./images/A676B74C-64A6-4344-8D4D-400D0596E125.JPG" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="cardContainer col-lg-7 col-md-3 col-sm-6">
-    <div class="card">
-      <img src="./images/IMG_6733.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-
-</section>
 
 
   <!-- Skills -->
+<i class="fa-brands fa-html5 fa-5x"></i>
+<i class="fa-brands fa-css3-alt"></i>
+<i class="fa-brands fa-bootstrap"></i>
 
   <!-- About -->
 
   <!-- Footer- hyperlinks should have hover and box shadow -->
 
 
-
+  <i class="fa-brands fa-github-alt"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-linkedin-in"></i>
 
 
 
@@ -132,6 +115,8 @@ crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/036f00d82e.js" crossorigin="anonymous"></script>
+ 
 </body>
 
 </html>
