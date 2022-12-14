@@ -80,13 +80,12 @@ color: var(--base-dark);
 }
 
 /* About Section */
-.about {
-  background-color: rgb(255, 255, 255, .3)!important;
+/* .about {
   justify-content: center;
   align-items: center;
   margin: auto;
   border: none;
-}
+} */
 
 #about {
   margin: auto;
@@ -94,7 +93,7 @@ color: var(--base-dark);
 }
 
 .semiTrans-light{
-  background-color: white;
+  background-color: rgb(255, 255, 255, .3);
 }
 
 .card {
