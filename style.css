@@ -125,4 +125,7 @@ footer {
   background-color: rgb(0, 0, 0, .5);
 padding: 10px;
 }
+p.copyright {
+  color: var(--base-dark);
+}
 
