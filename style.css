@@ -8,8 +8,13 @@ body {
   overflow-x: hidden;
   margin: auto;
   background-image: url(./images/IMG_6282.jpg);
-  background-size: cover;
   background-attachment: fixed;
+  background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+  background-size:cover;
+  background-position:center;
   font-family: 'Noto Sans JP', sans-serif;
 }
 html{
