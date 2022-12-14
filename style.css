@@ -75,6 +75,10 @@ color: var(--base-dark);
   border-radius: 50px;
 }
 
+.btn {
+  box-shadow: inset 0px 5px 10px 0px rgb(63, 61, 61, .5)
+}
+
 /* About Section */
 .about {
   background-color: rgb(255, 255, 255, .3)!important;
